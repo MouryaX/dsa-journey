@@ -1,5 +1,5 @@
 #-----------------------------------------------------------------------------------------------------
-'''nums = [0,0,1,1,1,2,2,3,3,4] #we need to change in-place in nums 
+nums = [0,0,1,1,1,2,2,3,3,4] #we need to change in-place in nums 
 new_arr=[]
 for num in nums:
     if num not in new_arr:
@@ -30,7 +30,7 @@ while r < len(nums):
     #No need to swap just overwrite elements 
     k+=1
     r+=1
-print(nums,k)'''
+print(nums,k)
 
 #------------------------------------------------------------------------------------------------
 #Correct code using single pointer

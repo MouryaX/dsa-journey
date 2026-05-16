@@ -4,7 +4,7 @@
 #Time:O(n^2)
 #Space:O(1)
 #----------------------------------------------------------------
-'''nums = [1,7,3,6,5,6]
+nums = [1,7,3,6,5,6]
 f=False
 n=len(nums)
 for i in range(n):
@@ -14,7 +14,7 @@ for i in range(n):
     right_sum = 0
     # left side
     for j in range(i):
-        left_sum += nums[j] Here its updating left_sum=left_sum + nums[j] so we need to initilize first
+        left_sum += nums[j] #Here its updating left_sum=left_sum + nums[j] so we need to initilize first
 
     # right side
     for j in range(i+1, n):
