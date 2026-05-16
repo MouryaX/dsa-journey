@@ -21,7 +21,7 @@ maxx=0
 while r < len(prices):
     if prices[l] < prices[r]:
         profit=prices[r]-prices[l]
-        maxx=max(maxx,profits)
+        maxx=max(maxx,profit)
     else:
         l=r
     r+=1
