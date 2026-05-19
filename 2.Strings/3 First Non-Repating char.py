@@ -1,4 +1,4 @@
-#We have to find first Non-Repeating char in string and should sort the chars in desc order high freq to low freq
+    #We have to find first Non-Repeating char in string and should sort the chars in desc order high freq to low freq
 s=input().strip()
 freq={}
 for x in s:
