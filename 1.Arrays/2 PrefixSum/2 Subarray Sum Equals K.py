@@ -20,4 +20,4 @@ print(total)
 #Time:O(n^2) for traversal Space:O(1)
 
 #--------------------------------------------------------------------------------------------------------------------
-#Optimal using 
+#Optimal using prefixsum and hashmap
