@@ -1,4 +1,4 @@
-#LN:69
+    #LN:69
 # Given non-neg x return its sqrt(x) rounded down to the nearest integer
 # without any built-in functions and returned int should non-neg
 x=4
@@ -15,5 +15,5 @@ while l <= r:
     else:
         r = mid - 1
 print(ans)
-    
+#Time:O(log x) Space:O(1)    
      

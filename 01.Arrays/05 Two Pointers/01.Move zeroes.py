@@ -1,4 +1,4 @@
-#LN:238
+#LN:283
 nums = [1,0,3,12]
 l,r=0,0
 while r < len(nums):
