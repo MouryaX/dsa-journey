@@ -34,3 +34,8 @@ print(cnt)
 
 #Time:O(n) tarversal + O(26) last loop =O(n)
 #Space:O(1) beacuse of array with only 26 chars
+
+
+'''freq = {'a':4, 'b':1, 'c':7}
+
+print(min(freq, key=freq.get))'''
