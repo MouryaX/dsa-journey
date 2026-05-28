@@ -37,6 +37,6 @@ if __name__ == "__main__":
 
 '''freq = {'a':4, 'b':1, 'c':7}
 
-print(min(freq, key=freq.get))
+print(min(freq, key=freq.get)) #b
 
-print(max(freq, key=freq.get))'''
+print(max(freq, key=freq.get))#a '''
