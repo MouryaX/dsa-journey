@@ -1,7 +1,7 @@
 #Approach-2 use two pointers left(buy) , right(sell) 
 #check each time if left < right left(buy) should be always less than right then compute profit
 #if left > right then update left pointer to right and increment right+=1
-'''prices = [7,6,4,3,1]
+'''prices = [7,1,4,5,1]
 l,r=0,1
 maxx,profit=0,0
 while r < len(prices):
