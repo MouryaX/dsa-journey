@@ -11,7 +11,7 @@ from collections import Counter
 nums = [3, 4, 4, 1, 2, 1]
 freq={}
 for x in nums:
-    freq[x]=freq.get(x,0)+1  # freq=Counter(nums) Counter automatically store freq of elemnets in O(n)
+    freq[x]=freq.get(x,0)+1  # freq=Counter(nums) Counter automatically store freq of elements in O(n)
 n=max(nums)
 for i in range(1, n):
     if freq.get(i,0) != 1:        #if freq[num] > 1 and num != maxi: here am not checking the missing number
