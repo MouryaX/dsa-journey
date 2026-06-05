@@ -1,4 +1,5 @@
 #Calculate nth fibonacci number
+
 #Fibonacci is sum of its two pervious numbers
 # direct formula:F(n)=F(n−1)+F(n−2)
 def fib(n):
