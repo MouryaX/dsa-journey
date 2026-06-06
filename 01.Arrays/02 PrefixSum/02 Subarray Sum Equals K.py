@@ -23,7 +23,7 @@ print(total)'''
 #Optimal using prefixsum and hashmap
 #Time:O(n) Space:O(n) prefixsum
 freq={}  #Unordered map 
-freq[0] = 1
+freq[0] = 1 #There may be a subarray exists which is = k and where we can't remove any elements (x-k=0)
 prefix, cnt = 0, 0
 for i in range(n):
     prefix += nums[i]
