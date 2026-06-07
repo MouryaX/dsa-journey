@@ -12,8 +12,8 @@ nums = [3, 4, 4, 1, 2, 1]
 freq={}
 for x in nums:
     freq[x]=freq.get(x,0)+1  # freq=Counter(nums) Counter automatically store freq of elements in O(n)
-n=max(nums)
-for i in range(1, n):
+n=max(nums)                  #Also counter treats missing element freq as 0 freq[9] == 0 
+for i in range(1, n):        #but in normal dict it gives keyError
     if freq.get(i,0) != 1:        #if freq[num] > 1 and num != maxi: here am not checking the missing number
         print(False)        #ANd use freq.get() insetad of direct access freq[i] if i not there error occurs
         exit()

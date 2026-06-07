@@ -1,7 +1,7 @@
 #Find a contiguous subarray whose length is equal to k that has the maximum average value 
-#And return this value. Any answer with a calculation error less than 10-5 will be accepted.
+#And return this value. Any answer with a calculation error less than 10^-5 will be accepted.
 #meaning 10^−5=0.00001
-#so allowed error is 0.00001 , ∣your answer−actual answer∣<0.00001 ex:|5.123456 - 5.123460| differnce is 0.000004
+#so allowed error is 0.00001 , your answer−actual answer∣<0.00001 ex:|5.123456 - 5.123460| differnce is 0.000004
 nums = [1,12,-5,-6,50,3]
 l,k = 0,4
 window_sum = sum(nums[:k])

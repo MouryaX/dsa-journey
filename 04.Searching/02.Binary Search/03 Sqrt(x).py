@@ -1,7 +1,7 @@
     #LN:69
 # Given non-neg x return its sqrt(x) rounded down to the nearest integer
 # without any built-in functions and returned int should non-neg
-x=4
+x=81
 l,r,ans=0,x,0
 while l <= r:
     mid = (l + r) // 2
