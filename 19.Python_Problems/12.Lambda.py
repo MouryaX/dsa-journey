@@ -1,4 +1,4 @@
-#Lambda is short-lived anonymous function used to pass simple logic, it doesn't have any name
+#lambda is short-lived anonymous function used to pass simple logic, it doesn't have any name
 a = 'GeeksforGeeks'
 upper = lambda x: x.upper()  
 print(upper(a))
@@ -7,7 +7,7 @@ print(upper(a))
 func = [lambda arg=x: arg * 10 for x in range(1, 5)] #it stores multiple lambda functions
 for i in func:
     print(i())  #i calls the lambda  function func[0],func[1] .... so on and calculated value returned
-#value returned automatically no need to typing return
+#value returned automatically no need to type return
 
 #filter(): This function uses a lambda expression to select elements from a list that satisfy a given condition
 
