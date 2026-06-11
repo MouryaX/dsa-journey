@@ -42,12 +42,39 @@ class LinkedList:
             temp = temp.next
         
         print("None")
+        
+    def merge(self,head1,head2):
+        h1=head1
+        h2=head2
+        
+        d = Node(0)
+        tail = d
+        
+        while h1 and h2:
+            if h1.data <= h2.data:
+                tail.next = h1
+                h1=h1.next
+            else:
+                tail.next=h2
+                h2=h2.next
+                
+            tail=tail.next 
+        if h1:
+            tail.next=h1
+        if h2:
+            tail.next=h2 
+        
+        self.head=d.next
+        self.display()
     
-ll=LinkedList()
-
+ll1=LinkedList()
 for i in range(1,6):
-    ll.insert(i)
-ll.display()
-head=ll.head
-ll.insertNodeAtTail(6)
-ll.display()
+    ll1.insert(i)
+    
+ll2=LinkedList()
+for i in range(1,4):
+    ll2.insert(i)
+
+ll1.display()
+ll2.display()
+ll1.merge(ll1.head, ll2.head)
