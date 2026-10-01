@@ -1,4 +1,4 @@
-#LN:1480
+    #LN:1480
 nums = [1,2,3,4]
 prefix=[0]*len(nums)
 prefix[0]=nums[0]
